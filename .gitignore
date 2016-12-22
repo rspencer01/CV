@@ -1,0 +1,7 @@
+# LaTeX things
+*.pdf
+*.aux
+*.log
+*.out
+# Dropbox things
+.dropbox.attr
