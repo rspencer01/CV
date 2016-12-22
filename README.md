@@ -1,7 +1,7 @@
 Robert Spencer's Curriculum Vitae
 =================================
 
-This repo has the TeX for my CV.  Feel free to copy the format (under the appropriate licence) for your own CV.
+This repo has the TeX for my CV.  Feel free to copy the format (under the appropriate licence) for your own CV.  The result is [here](https://github.com/rspencer01/cv/blob/master/CV%20-%202016%20-%20Robert%20Spencer.pdf).
 
 Licence
 -------
