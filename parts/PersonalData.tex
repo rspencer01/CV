@@ -1,22 +1,33 @@
 \section{Personal Data}
 
 \begin{wrapfigure}{R}{0.25\textwidth}
-\vspace{-66pt}
 \begin{center}
-  \includegraphics[width=3.0cm]{profile2}
+\iftoggle{short}{
+\vspace{-40pt}
+  \includegraphics[width=2.4cm]{profile2}
+}{
+\vspace{-60pt}
+  \includegraphics[width=3.4cm]{profile2}
+}
 \end{center}
 \end{wrapfigure}
-\begin{tabular}{R{5cm}|l}
+\begin{tabular}{R{3cm}|l}
 \textsc{Date of Birth} & 27 November 1994 \\
+\iftoggle{short}{}{
 \textsc{Place of Birth} & Cape Town | South Africa\\
+}
 \textsc{Nationality:} & South Africa\\
+\iftoggle{short}{}{
 \textsc{Physical Address} & 14 Ridge Way\\
 &Pinelands\\
 &7405\\
 &Cape Town\\
 &South Africa\\
+}
 \textsc{Cellular Phone:} & +27 (0)76 021 8434\\
-\textsc{Email:} & \href{mailto:robert.spencer94@gmail.com}{robert.spencer94@gmail.com}
+                         & +44 (0)7919 312282\\
+\textsc{Email:} & \href{mailto:robert.spencer94@gmail.com}{\texttt{robert.spencer94@gmail.com}}\\
+\textsc{Github:} & \href{https://github.com/rspencer01}{\texttt{rspencer01}}
 \end{tabular}
 
 
