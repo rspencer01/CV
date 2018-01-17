@@ -12,3 +12,7 @@ onepage: ${ONEPAGE_COVER}
 
 full: ${FULL_COVER}
 	pdflatex ${FULL_COVER}
+
+.PHONY: clean
+clean:
+	-rm *.aux *.out *.log
