@@ -1,6 +1,6 @@
-ONEPAGE_COVER=CV\ -\ 2016\ -\ Robert\ Spencer\ One\ Page.tex
-ABBREVIATED_COVER=CV\ -\ 2016\ -\ Robert\ Spencer\ Abbreviated.tex
-FULL_COVER=CV\ -\ 2016\ -\ Robert\ Spencer.tex
+ONEPAGE_COVER=CV\ -\ Robert\ Spencer\ One\ Page.tex
+ABBREVIATED_COVER=CV\ -\ Robert\ Spencer\ Abbreviated.tex
+FULL_COVER=CV\ -\ Robert\ Spencer.tex
 
 all: onepage abbreviated full
 
