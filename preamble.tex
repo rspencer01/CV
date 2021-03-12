@@ -47,6 +47,11 @@
 \titleformat{\section}{\Large\scshape\bfseries\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
 \titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
 
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+
+\usepackage{tgschola}
+
 \renewcommand\sfdefault{bch}
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -56,5 +61,8 @@
 \lhead{}
 \chead{}
 \rhead{}
-\lfoot{\textsc{Robert Spencer} | \thepage\  / \pageref{LastPage}}
+\lfoot{\textsc{Robert Spencer} | \thepage~/~\pageref{LastPage}}
+\rfoot{\textsc{full cv available at} \href{https://cv.robertandrewspencer.com}{\texttt{cv.robertandrewspencer.com}}}
 
+\newcommand{\tableindent}{\hspace{15pt}}
+\newcommand{\n}[1]{\oldstylenums{#1}}
