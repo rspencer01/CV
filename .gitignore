@@ -2,5 +2,6 @@
 *.aux
 *.log
 *.out
-# Dropbox things
-.dropbox.attr
+# latexmk things
+*latexmk
+*.fls
